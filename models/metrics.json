@@ -1,0 +1,205 @@
+{
+  "dataset": {
+    "total_transactions": 20090,
+    "train_size": 16072,
+    "test_size": 4018,
+    "fraud_count_total": 490,
+    "fraud_ratio_total": 0.024390243902439025,
+    "fraud_count_test": 98
+  },
+  "ensemble": {
+    "precision": 0.9798,
+    "recall": 0.9898,
+    "f1": 0.9848,
+    "roc_auc": 1.0,
+    "confusion_matrix": [
+      [
+        3918,
+        2
+      ],
+      [
+        1,
+        97
+      ]
+    ]
+  },
+  "random_forest": {
+    "precision": 0.9798,
+    "recall": 0.9898,
+    "f1": 0.9848,
+    "roc_auc": 1.0,
+    "confusion_matrix": [
+      [
+        3918,
+        2
+      ],
+      [
+        1,
+        97
+      ]
+    ]
+  },
+  "isolation_forest": {
+    "precision": 0.9341,
+    "recall": 0.8673,
+    "f1": 0.8995,
+    "roc_auc": 0.9986
+  },
+  "roc_curve": [
+    {
+      "fpr": 0.0,
+      "tpr": 0.0
+    },
+    {
+      "fpr": 0.0,
+      "tpr": 0.02040816326530612
+    },
+    {
+      "fpr": 0.0,
+      "tpr": 0.9897959183673469
+    },
+    {
+      "fpr": 0.0007653061224489796,
+      "tpr": 0.9897959183673469
+    },
+    {
+      "fpr": 0.0007653061224489796,
+      "tpr": 1.0
+    },
+    {
+      "fpr": 0.16683673469387755,
+      "tpr": 1.0
+    },
+    {
+      "fpr": 0.1673469387755102,
+      "tpr": 1.0
+    },
+    {
+      "fpr": 0.7211734693877551,
+      "tpr": 1.0
+    },
+    {
+      "fpr": 0.7216836734693878,
+      "tpr": 1.0
+    },
+    {
+      "fpr": 0.801530612244898,
+      "tpr": 1.0
+    },
+    {
+      "fpr": 0.8020408163265306,
+      "tpr": 1.0
+    },
+    {
+      "fpr": 0.8619897959183673,
+      "tpr": 1.0
+    },
+    {
+      "fpr": 0.8625,
+      "tpr": 1.0
+    },
+    {
+      "fpr": 0.914795918367347,
+      "tpr": 1.0
+    },
+    {
+      "fpr": 0.9153061224489796,
+      "tpr": 1.0
+    },
+    {
+      "fpr": 0.9719387755102041,
+      "tpr": 1.0
+    },
+    {
+      "fpr": 0.9724489795918367,
+      "tpr": 1.0
+    },
+    {
+      "fpr": 1.0,
+      "tpr": 1.0
+    }
+  ],
+  "feature_importance": [
+    {
+      "feature": "amount",
+      "importance": 0.41450740765511024
+    },
+    {
+      "feature": "amount_ratio",
+      "importance": 0.3017293903947848
+    },
+    {
+      "feature": "amount_zscore",
+      "importance": 0.1522954743641675
+    },
+    {
+      "feature": "is_night",
+      "importance": 0.047847386636942324
+    },
+    {
+      "feature": "cat_money_transfer",
+      "importance": 0.021553783843859725
+    },
+    {
+      "feature": "hour_of_day",
+      "importance": 0.018578590996329074
+    },
+    {
+      "feature": "cat_grocery",
+      "importance": 0.014470678583743405
+    },
+    {
+      "feature": "cat_crypto_investment",
+      "importance": 0.010551929834345993
+    },
+    {
+      "feature": "location_changed",
+      "importance": 0.007348560282609029
+    },
+    {
+      "feature": "is_international",
+      "importance": 0.004061341297653718
+    },
+    {
+      "feature": "cat_food_dining",
+      "importance": 0.0030141823659644473
+    },
+    {
+      "feature": "txn_count_last_1h",
+      "importance": 0.002659381897257089
+    },
+    {
+      "feature": "cat_entertainment",
+      "importance": 0.0003714958902202442
+    },
+    {
+      "feature": "cat_travel",
+      "importance": 0.00036358161811074914
+    },
+    {
+      "feature": "cat_healthcare",
+      "importance": 0.00031408022983816456
+    },
+    {
+      "feature": "cat_utilities",
+      "importance": 0.00013014359623368606
+    },
+    {
+      "feature": "cat_electronics",
+      "importance": 0.00011812964617337309
+    },
+    {
+      "feature": "cat_shopping",
+      "importance": 8.446086665640571e-05
+    },
+    {
+      "feature": "is_new_device",
+      "importance": 0.0
+    }
+  ],
+  "risk_level_counts": {
+    "Low": 3918,
+    "Medium": 3,
+    "High": 97
+  }
+}
