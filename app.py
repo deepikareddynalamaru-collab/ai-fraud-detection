@@ -30,7 +30,11 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-
+st.markdown("""
+<style>
+[data-testid="stToolbarActions"] {display: none !important;}
+</style>
+""", unsafe_allow_html=True)
 
 
 
