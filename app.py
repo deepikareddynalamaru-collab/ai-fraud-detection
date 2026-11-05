@@ -32,30 +32,6 @@ st.set_page_config(
 
 
 
-st.markdown("""
-<style>
-
-/* Hide Fork / Deploy button */
-[data-testid="stAppDeployButton"] {
-    display: none !important;
-}
-
-/* Hide GitHub icon */
-header a[href*="github.com"],
-header a[aria-label*="GitHub" i],
-header button[aria-label*="GitHub" i],
-[data-testid="stToolbar"] a[href*="github.com"] {
-    display: none !important;
-}
-
-/* Keep three-dot menu visible */
-[data-testid="stToolbar"] {
-    visibility: visible !important;
-    opacity: 1 !important;
-}
-
-</style>
-""", unsafe_allow_html=True)
 
 
 
