@@ -1,5 +1,5 @@
 # 🛡️ AI-Powered Fraud Detection System
-> **Course:** AI for Finance, CIA-2  
+>  AI for Finance  
 > **Tech Stack:** Python 3.13, scikit-learn, Streamlit, Plotly, Pandas, NumPy
 
 An end-to-end, production-ready AI Fraud Detection System that identifies fraudulent financial transactions using a **Hybrid AI Architecture** (Unsupervised Isolation Forest + Supervised Balanced Random Forest), assigns a dynamic risk score (0–100), and provides **plain-English diagnostic explanations** for every flagged transaction.
