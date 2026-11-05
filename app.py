@@ -29,6 +29,11 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
+st.markdown("""
+<style>
+[data-testid="stToolbarActions"], [data-testid="stToolbar"] a[href*="github.com"] {display: none;}
+</style>
+""", unsafe_allow_html=True)
 
 
 # Custom Styling
