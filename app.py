@@ -29,7 +29,17 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
-
+st.markdown("""
+<style>
+[data-testid="stToolbar"] a[href*="github"],
+[data-testid="stToolbar"] a[href*="codespaces"],
+[data-testid="stToolbar"] a[href*="edit-with"],
+[data-testid="stToolbar"] [aria-label*="GitHub" i],
+[data-testid="stToolbar"] [aria-label*="Edit" i],
+[data-testid="stToolbar"] [title*="GitHub" i],
+[data-testid="stToolbar"] [title*="Edit" i] {display: none !important;}
+</style>
+""", unsafe_allow_html=True)
 
 # Custom Styling
 st.markdown("""
