@@ -31,7 +31,12 @@ st.set_page_config(
 )
 st.markdown("""
 <style>
-[data-testid="stToolbarActions"], [data-testid="stToolbar"] a[href*="github.com"] {display: none;}
+[data-testid="stToolbar"] a[href*="github.com"],
+[data-testid="stToolbar"] a[href*="codespaces"],
+[data-testid="stToolbar"] a[href*="edit-with"],
+[data-testid="stToolbarActions"] a[href*="github.com"],
+[data-testid="stToolbarActions"] a[href*="codespaces"],
+[data-testid="stToolbarActions"] a[href*="edit-with"] {display: none !important;}
 </style>
 """, unsafe_allow_html=True)
 
