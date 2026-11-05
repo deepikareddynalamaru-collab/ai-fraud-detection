@@ -1,7 +1,7 @@
 """
 app.py
 AI-Powered Fraud Detection System
-Course: AI for Finance, CIA-2 | Stack: Python, scikit-learn, Streamlit
+ AI for Finance| Stack: Python, scikit-learn, Streamlit
 """
 
 import os
@@ -134,7 +134,7 @@ test_preds_df = load_test_predictions()
 # ==========================================
 with st.sidebar:
     st.title("🛡️ AI Fraud Guard")
-    st.caption("AI for Finance | CIA-2")
+    st.caption("AI for Finance ")
     st.markdown("---")
 
     st.subheader("System Status")
