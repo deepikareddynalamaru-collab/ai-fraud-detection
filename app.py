@@ -29,12 +29,12 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
+
 st.markdown("""
 <style>
 [data-testid="stToolbar"] a[href*="github.com"],
 [data-testid="stToolbar"] a[href*="codespaces"],
-[data-testid="stToolbar"] a[href*="edit-with"],
-[data-testid="stToolbarActions"] {display: none !important;}
+[data-testid="stToolbar"] a[href*="edit-with"] {display: none !important;}
 </style>
 """, unsafe_allow_html=True)
 
